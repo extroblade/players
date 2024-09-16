@@ -40,4 +40,8 @@ button {
   border: 0;
   border-radius: 4px;
   padding: 4px;
+  &:disabled {
+    cursor: default;
+    background-color: #12203b;
+  }
 }
