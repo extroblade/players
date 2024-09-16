@@ -1,0 +1,80 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.player {
+  position: relative;
+  &:hover {
+    .onhover {
+      display: flex;
+    }
+  }
+}
+
+.loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+}
+
+.play {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.range {
+  width: 80%;
+  margin-left: 10px;
+}
+
+
+.preview {
+  background: rgba(0, 0, 0, 0.5);
+  margin-top: 10px;
+
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+}
+
+.onpause {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.onhover {
+  position: absolute;
+  display: none;
+
+  justify-content: space-between;
+  flex-direction: column-reverse;
+
+  gap: 20px;
+
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+}
+.top {
+  top: 20px;
+}
+.bot {
+  bottom: 0%;
+}
