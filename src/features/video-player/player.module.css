@@ -45,7 +45,7 @@
   position: absolute;
   bottom: 30px;
   left: 50%;
-  transform: translate(-50%, 0);
+  transform: translate(-50%, 150%);
 }
 
 .controls {
@@ -57,6 +57,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
+  z-index: 15;
   transform: translate(-50%, -50%);
 }
 
